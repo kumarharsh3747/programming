@@ -1,0 +1,23 @@
+An abstract class in C++ is a class that serves as a blueprint for other classes.
+It cannot be instantiated directly and is primarily used to define a common interface for its derived classes.
+An abstract class must contain at least one pure virtual function.
+
+Sometimes implementation of all functions cannot be provided in a base class because we don’t know the implementation. Such a class is called an abstract class
+
+Key Features of Abstract Classes:
+--Contains Pure Virtual Functions:
+
+**A pure virtual function is declared by assigning = 0 to the function in the base class.
+Example: virtual void functionName() = 0;
+***Cannot Be Instantiated:
+
+***You cannot create objects of an abstract class directly.
+Defines Interface:
+
+An abstract class is used to enforce that derived classes must implement certain functions.
+Allows Partial Implementation:
+
+It can have both pure virtual functions and regular member functions with implementation.
+Supports Polymorphism:
+
+Abstract classes are often used with pointers or references to achieve runtime polymorphism

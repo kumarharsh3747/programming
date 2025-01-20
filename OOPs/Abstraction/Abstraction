@@ -1,0 +1,11 @@
+Abstraction?
+Hiding all unnecessary details and showing only the importants parts
+
+real-life example of a man driving a car
+-->The man only knows that pressing the accelerator will increase the speed of the car or applying brakes will stop the car but he does not know how on pressing the accelerator the speed is actually increasing, he does not know about the inner mechanism of the car or the implementation of the accelerator, brakes, etc in the car
+
+Types of Abstraction:
+Data abstraction – This type only shows the required information about the data and ignores unnecessary details.
+Control Abstraction – This type only shows the required information about the implementation and ignores unnecessary details.
+
+Abstraction is achieved using Abstract class

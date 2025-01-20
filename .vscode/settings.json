@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.embeddedhtml": "html",
+        "system_error": "cpp",
+        "xlocale": "cpp",
+        "iostream": "cpp"
+    }
+}
