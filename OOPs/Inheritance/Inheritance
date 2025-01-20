@@ -1,0 +1,68 @@
+The capability of a class to derive properties and characteristics from another class
+is called Inheritance.
+
+Syntax of Inheritance in C++
+class  derived_class_name : access-specifier  base_class_name
+{
+       //    body ....
+};
+where,
+
+class: keyword to create a new class
+derived_class_name: name of the new class, which will inherit the base class
+access-specifier: Specifies the access mode which can be either of private, public or protected. If neither is specified, private is taken as default.
+base-class-name: name of the base class.
+
+***Note: A derived class doesn’t inherit access to private data members.
+  However, it does inherit a full parent object, which contains any private members
+   which that class declares.
+
+Types Of Inheritance in C++
+The inheritance can be classified on the basis of the relationship between the derived class and the base class. In C++, we have 5 types of inheritances:
+
+Single inheritance
+Multilevel inheritance
+Multiple inheritance
+Hierarchical inheritance
+Hybrid inheritance
+![alt text](image.png)
+
+#include<iostream>
+using namespace std;
+
+// C++ program to show that a derived class
+// doesn’t inherit access to private data members.
+// However, it does inherit a full parent object.
+class A {
+public:
+    int x;
+
+protected:
+    int y;
+
+private:
+    int z;
+};
+
+class B : public A {
+    // x is public
+    // y is protected
+    // z is not accessible from B
+};
+
+class C : protected A {
+    // x is protected
+    // y is protected
+    // z is not accessible from C
+};
+
+class D : private A // 'private' is default for classes
+{
+    // x is private
+    // y is private
+    // z is not accessible from D
+};
+int main()
+{
+ return 0;
+}
