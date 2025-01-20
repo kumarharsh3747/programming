@@ -1,0 +1,18 @@
+Special method invoked automatically at time of object creation.
+Used for initialization
+
+same name as class
+constructor doesn't have return type
+only called once (automatically) at object creation
+Memory allocation happens when constructor is called.
+
+Types of Constructors in C++
+Constructors can be classified based on in which situations they are being used. There are 4 types of constructors in C++:
+
+Default Constructor: No parameters. They are used to create an object with default values.
+
+Parameterized Constructor: Takes parameters. Used to create an object with specific initial values.
+
+Copy Constructor: Takes a reference to another object of the same class. Used to create a copy of an object.
+
+Move Constructor: Takes an rvalue reference to another object. Transfers resources from a temporary object.

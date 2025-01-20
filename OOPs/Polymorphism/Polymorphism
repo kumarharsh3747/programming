@@ -1,0 +1,17 @@
+Polymorphism in C++ is a key concept in object-oriented programming that allows objects to be treated as instances of their base type while exhibiting different behaviors based on their derived type. It enables a single interface to represent different underlying data types, leading to code reusability and flexibility.
+
+Types of Polymorphism
+1.-Compile-Time Polymorphism:
+
+Achieved through function overloading and operator overloading.
+Behavior is determined at compile-time.
+
+2.-Runtime Polymorphism:
+
+Achieved through inheritance and virtual functions.
+Behavior is determined at runtime using dynamic dispatch.
+
+Key Points
+Compile-Time Polymorphism uses static binding; Runtime Polymorphism uses dynamic binding.
+Virtual functions enable runtime polymorphism.
+Abstract classes are created using pure virtual functions.
